@@ -20,8 +20,7 @@ Utilized the auto_arima function to identify optimal model parameters, including
 + **Exponential Smoothing**: After the ARIMA model underperformed, switched to the Triple Exponential Smoothing (Holt-Winters Method) for a more reliable forecast.
 
 ## Forecasting Results
-![image_alt](![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/654357e6abbf8558cb327f5348c5db58db467152/Screenshot%202024-10-22%20at%2022.32.05.png)
-
+![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/57317568b7bbc448408003ce31132a88bc57d7e7/Screenshot%202024-10-22%20at%2022.59.16.png)
 ![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/654357e6abbf8558cb327f5348c5db58db467152/Screenshot%202024-10-22%20at%2022.32.05.png)
 + **Predicted 5-Year U.S. Yield Rate:** The final forecast predicted a 5-year U.S. yield rate of **3.43%** by December 31, 2024.
 + **Current Yield and Economic Indicators:** As of the current data, the yield stands at 3.90%, indicating that financial conditions have not eased, and there are no immediate signs of strong economic growth.
