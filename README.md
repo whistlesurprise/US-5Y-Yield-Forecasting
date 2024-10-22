@@ -30,6 +30,4 @@ Utilized the auto_arima function to identify optimal model parameters, including
 
 This project demonstrated the use of advanced time series forecasting techniques and provided a comprehensive understanding of handling large datasets, stationarity, and seasonality. The findings offer insights into the U.S. financial market outlook and yield forecasting for 2024.
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
