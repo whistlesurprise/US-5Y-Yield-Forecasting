@@ -4,20 +4,20 @@
 
 ## Project Overview
 
-This project analyzes the U.S. Security yield data from 1962 to 2024, utilizing time series analysis and econometric techniques to forecast future yields. The goal was to understand the stationarity, trends, and seasonality of the data and to apply various statistical models to predict the 5-year U.S. yield rate by the end of 2024.
+This project analyzes the U.S. Security yield [data from 1962 to 2024](https://fred.stlouisfed.org/series/DGS5), utilizing time series analysis and econometric techniques to forecast future yields. The goal was to understand the stationarity, trends, and seasonality of the data and to apply various statistical models to predict the 5-year U.S. yield rate by the end of 2024.
 
 ## Key Learning Objectives
 + **Introduction to Time Series Analysis**: This project marked the first experience with time series analysis and econometric applications.
-+ **Stationarity**: Gained a deep understanding of stationarity in time series and learned how to identify it using statistical tests like the Dickey-Fuller and KPSS tests.
++ **Stationarity**: Gained a deep understanding of stationarity in time series and learned how to identify it using statistical tests like the [Dickey-Fuller](https://en.wikipedia.org/wiki/Dickey–Fuller_test) and [KPSS](https://en.wikipedia.org/wiki/KPSS_test) tests.
 + **Trend and Seasonality Handling**: Explored methods to manage trends and seasonality in residuals.
 
 ## Methods and Techniques
 1. **Data Preprocessing**:
-+ Applied basic techniques like differencing and the Box-Cox method to achieve stationarity in the data.
++ Applied basic techniques like differencing and the [Box-Cox](https://en.wikipedia.org/wiki/Power_transform) method to achieve stationarity in the data.
 2. **Model Selection**:
 **ARIMA and SARIMA Models**: 
-Utilized the auto_arima function to identify optimal model parameters, including seasonality, by analyzing autocorrelation functions (ACF). Determined a seasonal period of 24-27 months based on ACF results.
-+ **Exponential Smoothing**: After the ARIMA model underperformed, switched to the Triple Exponential Smoothing (Holt-Winters Method) for a more reliable forecast.
+Utilized the [auto_arima](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.auto_arima.html) function to identify optimal model parameters, including seasonality, by analyzing autocorrelation functions [(ACF)](https://en.wikipedia.org/wiki/Autocorrelation). Determined a seasonal period of 24-27 months based on ACF results.
++ **Exponential Smoothing**: After the ARIMA model underperformed, switched to the Triple Exponential Smoothing [(Holt-Winters Method)](https://en.wikipedia.org/wiki/Exponential_smoothing) for a more reliable forecast.
 
 ## Forecasting Results
 ![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/57317568b7bbc448408003ce31132a88bc57d7e7/Screenshot%202024-10-22%20at%2022.59.16.png)
@@ -27,8 +27,6 @@ Utilized the auto_arima function to identify optimal model parameters, including
 + **Federal Reserve Projections:** Given the Federal Reserve's projections for two additional 25 basis point rate cuts in 2024, the forecast of 3.43% remains realistic.
 
 ## Conclusion
-
-
 This project demonstrated the use of advanced time series forecasting techniques and provided a comprehensive understanding of handling large datasets, stationarity, and seasonality. The findings offer insights into the U.S. financial market outlook and yield forecasting for 2024.
 
 
