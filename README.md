@@ -23,7 +23,7 @@ Utilized the [auto_arima](https://alkaline-ml.com/pmdarima/modules/generated/pmd
 ![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/57317568b7bbc448408003ce31132a88bc57d7e7/Screenshot%202024-10-22%20at%2022.59.16.png)
 ![image_alt](https://github.com/whistlesurprise/US-5Y-Yield-Forecasting/blob/654357e6abbf8558cb327f5348c5db58db467152/Screenshot%202024-10-22%20at%2022.32.05.png)
 + **Predicted 5-Year U.S. Yield Rate:** The final forecast predicted a 5-year U.S. yield rate of **3.43%** by December 31, 2024.
-+ **Current Yield and Economic Indicators:** As of the current data, the yield stands at [3.90%](https://fred.stlouisfed.org/series/DGS5), indicating that financial conditions have not eased, and there are no immediate signs of strong economic growth.
++ **Current Yield and Economic Indicators:** As of the current data, the yield stands at [3.90%](https://fred.stlouisfed.org/series/DGS5), indicating that no clear signs of strong economic growth, markets are deeply concerned about Donald Trump's policies and fiscal discipline of U.S.
 + **Federal Reserve Projections:** Given the Federal Reserve's projections for two additional 25 basis point rate cuts in 2024, the forecast of 3.43% remains realistic.
 
 ## Conclusion
